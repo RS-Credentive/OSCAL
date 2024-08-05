@@ -18,7 +18,7 @@
     <import href="oscal_assessment-common_metaschema.xml"/>
     <!-- TOP LEVEL ASSEMBLY -->
     <define-assembly name="plan-of-action-and-milestones">
-        <formal-name>Plan of Action and Milestones (POA&amp;M)</formal-name>
+        <formal-name>Plan of Action and Milestones</formal-name>
         <description>A plan of action and milestones which identifies initial and residual risks, deviations, and disposition, such as those required by FedRAMP.</description>
         <root-name>plan-of-action-and-milestones</root-name>
         <define-flag name="uuid" required="yes" as-type="uuid">

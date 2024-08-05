@@ -297,7 +297,7 @@
                                     <description>Specifies objects to be removed from a control based on specific aspects of the object that must all match.</description>
                                     <group-as name="removes" in-json="ARRAY"/>
                                     <define-flag name="by-name" as-type="token">
-                                          <formal-name>Reference by (assigned) name</formal-name>
+                                          <formal-name>Reference by name</formal-name>
                                           <description>Identify items remove by matching their
                                                 assigned name.</description>
                                     </define-flag>
