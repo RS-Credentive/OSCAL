@@ -29,7 +29,7 @@
   <!-- # The SSP Assembly and supporting constructs # -->
   <!-- ############################################## -->
   <define-assembly name="system-security-plan">
-    <formal-name>System Security Plan (SSP)</formal-name>
+    <formal-name>System Security Plan</formal-name>
     <description>A system security plan, such as those described in NIST SP 800-18.</description>
     <root-name>system-security-plan</root-name>
     <define-flag name="uuid" as-type="uuid" required="yes">
@@ -319,11 +319,11 @@
     </model>
   </define-assembly>
   <define-field name="base" as-type="string" scope="local">
-    <formal-name>Base Level (Confidentiality, Integrity, or Availability)</formal-name>
+    <formal-name>Base Level</formal-name>
     <description>The prescribed base (Confidentiality, Integrity, or Availability) security impact level.</description>
   </define-field>
   <define-field name="selected" as-type="string" scope="local">
-    <formal-name>Selected Level (Confidentiality, Integrity, or Availability)</formal-name>
+    <formal-name>Selected Level</formal-name>
     <description>The selected (Confidentiality, Integrity, or Availability) security impact level.</description>
   </define-field>
   <define-field name="adjustment-justification" as-type="markup-multiline" scope="local">

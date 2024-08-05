@@ -15,7 +15,7 @@
     <import href="oscal_assessment-common_metaschema.xml"/>
     <!-- TOP LEVEL ASSEMBLY -->
     <define-assembly name="assessment-plan">
-        <formal-name>Security Assessment Plan (SAP)</formal-name>
+        <formal-name>Security Assessment Plan</formal-name>
         <description>An assessment plan, such as those provided by a FedRAMP assessor.</description>
         <root-name>assessment-plan</root-name>
         <define-flag name="uuid" required="yes" as-type="uuid">
